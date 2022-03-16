@@ -1,2 +1,2 @@
 # selise-assesment
-Assesment if selise internship
+Assesment of selise internship
