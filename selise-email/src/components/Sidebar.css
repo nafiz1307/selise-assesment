@@ -1,0 +1,43 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: calc(100vh - 60px);
+    border-right: 2px solid gray;
+}
+
+.email__list{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+
+
+.sender__img{
+    object-fit: contain;
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+}
+
+.email__preview{
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+}
+
+.email__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.email__subject{
+    margin-top: -20px;
+}
+
+.email__preview{
+    margin-top: -10px;
+}

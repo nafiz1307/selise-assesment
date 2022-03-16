@@ -3,9 +3,9 @@
   display: flex;
   align-items: center;
   position: sticky;
-  background-color: aliceblue;
   top: 0;
   z-index: 100;
+  justify-content: space-between;
 }
 
 .option__logo {
@@ -25,7 +25,6 @@
 
 .header__search {
   display: flex;
-  margin-left: 40%;
   align-items: center;
   color: gray;
 }
