@@ -4,9 +4,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 const Sidebar = () => {
+    var count =0;
   return (
     <div className="sidebar">
-      <Link to="email-two" style={{ color: "black", textDecoration: "none" }}>
+      <Link to="email-two" style={{ color: "black", textDecoration: "none" }} >
         <div className="email__list">
           <img
             src="https://w7.pngwing.com/pngs/481/915/png-transparent-computer-icons-user-avatar-woman-avatar-computer-business-conversation-thumbnail.png"
@@ -34,7 +35,7 @@ const Sidebar = () => {
         {" "}
         <div className="email__list">
           <img
-            src="https://w7.pngwing.com/pngs/481/915/png-transparent-computer-icons-user-avatar-woman-avatar-computer-business-conversation-thumbnail.png"
+            src="https://www.w3schools.com/howto/img_avatar.png"
             alt="demo avatar"
             className="sender__img"
           />
@@ -46,7 +47,7 @@ const Sidebar = () => {
             <p className="email__subject">Last Chance to get St..</p>
             <div className="email__preview">
               <p>
-                <FontAwesomeIcon className="starred" icon={faStar} />
+                <FontAwesomeIcon className="starred star__gold" icon={faStar} />
               </p>
               <small className="email__body__preview">
                 Exclusive view in Browser
@@ -58,7 +59,7 @@ const Sidebar = () => {
       <Link to="email-three" style={{ color: "black", textDecoration: "none" }}>
         <div className="email__list">
           <img
-            src="https://w7.pngwing.com/pngs/481/915/png-transparent-computer-icons-user-avatar-woman-avatar-computer-business-conversation-thumbnail.png"
+            src="https://cad.gov.jm/wp-content/uploads/2017/10/img_avatar2.png"
             alt="demo avatar"
             className="sender__img"
           />
