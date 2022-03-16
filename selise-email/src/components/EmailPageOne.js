@@ -1,6 +1,7 @@
 import React from "react";
 import "./EmailPage.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import {
   faCircleInfo,
   faEnvelope,

@@ -12,7 +12,7 @@ const EmailPageThree = () => {
     <div className="email__page">
       <div className="email__body__subject">
         <div className="email__title">
-          <h1>Last Chance to get Startup Framework - 50% OFF!</h1>
+          <h1>This is the 3rd Email</h1>
         </div>
         <div className="move__button">
           Move to : <button className="move">Trash</button>
@@ -23,7 +23,7 @@ const EmailPageThree = () => {
           <span>
             <FontAwesomeIcon className="starred__gold" icon={faStar} />
           </span>
-          <span className="left__black__text"> Designmodo to </span>
+          <span className="left__black__text"> Daily News Letter </span>
           <span className="left__blue__text"> me </span>
         </div>
         <div className="info_right">

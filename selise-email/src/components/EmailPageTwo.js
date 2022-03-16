@@ -11,7 +11,7 @@ const EmailPageTwo = () => {
     <div className="email__page">
       <div className="email__body__subject">
         <div className="email__title">
-          <h1>Last Chance to get Startup Framework - 50% OFF!</h1>
+          <h1>Email From Henry Fox</h1>
         </div>
         <div className="move__button">
           Move to : <button className="move">Trash</button>
@@ -37,10 +37,10 @@ const EmailPageTwo = () => {
       </div>
       <div className="email__body">
         <div className="first__line">
-          <h1>LAST DAY:50% OFF Startup FrameWork</h1>
+          <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis et laborum amet ab, dolore sapiente mollitia excepturi ducimus quae vero eos beatae quidem ut incidunt saepe numquam reprehenderit quisquam sint.</h1>
         </div>
         <div className="second__line">
-          We offer you a 50% discount on{" "}
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam rerum quos, non placeat nam aliquid exercitationem sint impedit tempora, aspernatur itaque, est iure quae odit! Animi repudiandae quis perferendis repellendus.{" "}
           <b>
             <u>Startup Design Framework</u>
           </b>
