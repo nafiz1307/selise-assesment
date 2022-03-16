@@ -51,3 +51,6 @@
 .star__gold{
     color: gold;
 }
+.linkActive{
+    cursor: not-allowed;
+}

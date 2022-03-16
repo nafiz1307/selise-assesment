@@ -7,7 +7,11 @@ const Sidebar = () => {
     var count =0;
   return (
     <div className="sidebar">
-      <Link to="email-two" style={{ color: "black", textDecoration: "none" }} >
+      <Link
+        to="/email-two"
+        style={{ color: "black", textDecoration: "none" }}
+        activeClassName ="linkActive"
+      >
         <div className="email__list">
           <img
             src="https://w7.pngwing.com/pngs/481/915/png-transparent-computer-icons-user-avatar-woman-avatar-computer-business-conversation-thumbnail.png"
@@ -56,7 +60,7 @@ const Sidebar = () => {
           </div>
         </div>
       </Link>
-      <Link to="email-three" style={{ color: "black", textDecoration: "none" }}>
+      <Link to="/email-three" style={{ color: "black", textDecoration: "none" }}>
         <div className="email__list">
           <img
             src="https://cad.gov.jm/wp-content/uploads/2017/10/img_avatar2.png"
