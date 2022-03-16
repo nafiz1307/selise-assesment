@@ -38,12 +38,12 @@ const EmailPageThree = () => {
       </div>
       <div className="email__body">
         <div className="first__line">
-          <h1>LAST DAY:50% OFF Startup FrameWork</h1>
+          <h1>Demo Headline for 3rd Email</h1>
         </div>
         <div className="second__line">
-          We offer you a 50% discount on{" "}
+          This is a demo line 
           <b>
-            <u>Startup Design Framework</u>
+            <u>demo under lined word</u>
           </b>
         </div>
         <div className="third__line">

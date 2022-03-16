@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <Link to="email-two">
+      <Link to="email-two" style={{ color: "black", textDecoration: "none" }}>
         <div className="email__list">
           <img
             src="https://w7.pngwing.com/pngs/481/915/png-transparent-computer-icons-user-avatar-woman-avatar-computer-business-conversation-thumbnail.png"
@@ -30,7 +30,7 @@ const Sidebar = () => {
           </div>
         </div>
       </Link>
-      <Link to="/">
+      <Link to="/" style={{ color: "black", textDecoration: "none" }}>
         {" "}
         <div className="email__list">
           <img
@@ -55,7 +55,7 @@ const Sidebar = () => {
           </div>
         </div>
       </Link>
-      <Link to="email-three">
+      <Link to="email-three" style={{ color: "black", textDecoration: "none" }}>
         <div className="email__list">
           <img
             src="https://w7.pngwing.com/pngs/481/915/png-transparent-computer-icons-user-avatar-woman-avatar-computer-business-conversation-thumbnail.png"
