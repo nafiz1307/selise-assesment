@@ -1,0 +1,38 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  background-color: aliceblue;
+  top: 0;
+  z-index: 100;
+}
+
+.option__logo {
+  width: 200px;
+  object-fit: contain;
+  margin: 0 20px;
+}
+
+.option__icon {
+  height: 30px;
+}
+.search__icon {
+    height: 30px;
+    position: relative;
+    margin-left: -87%;
+}
+
+.header__search {
+  display: flex;
+  margin-left: 40%;
+  align-items: center;
+  color: gray;
+}
+
+.search__bar {
+  height: 40px;
+  width: 300px;
+  border: 1px solid gray;
+  border-radius: 30px;
+}
